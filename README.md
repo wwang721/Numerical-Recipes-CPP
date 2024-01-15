@@ -13,9 +13,9 @@ Adapt some utilities from the famous book [*"Numerical Recipes in C"*](http://kf
 
 ## Contents
 
-1. [**LU decomposition**](https://courses.physics.illinois.edu/cs357/sp2020/notes/ref-9-linsys.html) ($\mathbf{A=LU}$) to solve linear equations $\mathbf{Ax=b}$ or calculate the inverse $\mathbf{A}^{-1}$. See header file [ludcmp.hpp](src/LU_Decomposition) [Chapt. 2.3].
+1. [**LU decomposition**](https://courses.physics.illinois.edu/cs357/sp2020/notes/ref-9-linsys.html) ($\mathbf{A=LU}$) to solve linear equations $\mathbf{Ax=b}$ or calculate the inverse $\mathbf{A}^{-1}$. See header file [ludcmp.hpp](src/LU_Decomposition/ludcmp.hpp) [Chapt. 2.3].
 
-2. [**Fredholm integral equation**](https://en.wikipedia.org/wiki/Fredholm_integral_equation) of the second kind $f(t)=\lambda\int_a^bK (t,s)f(s)\mathrm{d}s+g(t)$ can be tranformed into a matrix representation $(1-\lambda\tilde{\mathbf{K}})\cdot \mathbf{f}=\mathbf{g}$. See header file [fred2.hpp](https://github.com/wwang721/Numerical-Recipes-CPP/tree/main/src/Fredholm) [Chapt. 18.1].
+2. [**Fredholm integral equation**](https://en.wikipedia.org/wiki/Fredholm_integral_equation) of the second kind $f(t)=\lambda\int_a^bK (t,s)f(s)\mathrm{d}s+g(t)$ can be tranformed into a matrix representation $(1-\lambda\tilde{\mathbf{K}})\cdot \mathbf{f}=\mathbf{g}$. See header file [fred2.hpp](https://github.com/wwang721/Numerical-Recipes-CPP/tree/main/src/Fredholm/fred2.hpp) [Chapt. 18.1].
 
 
 
