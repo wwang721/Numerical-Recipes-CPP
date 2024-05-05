@@ -17,9 +17,10 @@ Adapt some utilities from the famous book [*"Numerical Recipes in C"*](http://kf
 
 2. [**Fredholm integral equation**](https://en.wikipedia.org/wiki/Fredholm_integral_equation) of the second kind $f(t)=\lambda\int_a^bK (t,s)f(s)\mathrm{d}s+g(t)$ can be tranformed into a matrix representation $(1-\lambda\tilde{\mathbf{K}})\cdot \mathbf{f}=\mathbf{g}$. See header file [fred2.hpp](https://github.com/wwang721/Numerical-Recipes-CPP/tree/main/src/Fredholm/fred2.hpp) [Chapt. 18.1].
 
-
-
 * Details are in the book's chapters, denoted by square brackets.
+
+## Citation
+[![DOI](https://zenodo.org/badge/743327087.svg)](https://zenodo.org/doi/10.5281/zenodo.11116966)
 
 ## License
 
