@@ -19,7 +19,7 @@ Adapt some utilities from the famous book [*"Numerical Recipes in C"*](http://kf
 
 * Details are in the book's chapters, denoted by square brackets.
 
-## Citation
+## Project information & Citation
 [![DOI](https://zenodo.org/badge/743327087.svg)](https://zenodo.org/doi/10.5281/zenodo.11116966)
 
 ## License
