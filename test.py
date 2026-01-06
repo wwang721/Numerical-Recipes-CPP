@@ -1,6 +1,6 @@
 # several obvious mistakes intentionally included for AI to detect
 
-from math import squareroot  # wrong import name
+from math import sqrt  # wrong import name
 
 def compute_sum(a, b)  # missing colon
     result = a + b
@@ -23,6 +23,6 @@ def example():
     for = 5  # 'for' is a reserved keyword
     print(for)
 
-value = squareroot(16)  # squareroot doesn't exist
+value = sqrt(16)  # squareroot doesn't exist
 
 print(totals)  # undefined variable
